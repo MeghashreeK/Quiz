@@ -1,87 +1,86 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
-    },
-    {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
-    },
-    {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
+        question:"Q1.Which one of the following river flows between Vindhyan and Satpura ranges?",
+        a:"Narmada",
+        b:"Mahanadi",
+        c:"Son",
+        d:"Netravati",
         ans:"ans1"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q2.The Central Rice Research Station is situated in?",
+        a:"Chennai",
+        b:"Cuttack",
+        c:"Bangalore",
+        d:"Quilon",
+        ans:"ans2"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+        question:"Q3.Who among the following wrote Sanskrit grammar?",
+        a:"Kalidasa",
+        b:"Charak",
+        c:"Panini",
+        d:"Aryabhatt",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
+         question:"Q4.Which among the following headstreams meets the Ganges in last?",
+         a:"Alaknanda",
+         b:"Pindar",
+         c:"Mandakini",
+         d:"Bhagirathi",
+         ans:"ans4"
+    },
+    {
+        question:"Q5.The metal whose salts are sensitive to light is?",
+        a:"Zinc",
+        b:"Silver",
+        c:"Copper",
+        d:"Aluminum",
+        ans:"ans2"
+    },
+    {
+        question:"Q6.Patanjali is well known for the compilation of -",
+        a:"Yoga Sutra",
+        b:"Panchatantra",
+        c:"Brahma Sutra",
+        d:"Ayurveda",
+        ans:"ans1"
+    },
+    {
+        question:"Q7.River Luni originates near Pushkar and drains into which one of the following?",
+        a:"Rann of Kachchh",
+        b:"Arabian Sea",
+        c:"Gulf of Cambay",
+        d:"Lake Sambhar",
+        ans:"ans1"
+    },
+    {
+        question:"Q8.Which one of the following rivers originates in Brahmagiri range of Western Ghats?",
+        a:"Pennar",
+        b:"Cauvery",
+        c:"Krishna",
+        d:"Tapti",
+        ans:"ans2"
+    },
+    {
+        question:"Q9.The country that has the highest in Barley Production?",
+        a:"China",
+        b:"India",
+        c:"Russia",
+        d:"France",
         ans:"ans3"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.Tsunamis are not caused by",
+        a:"Hurricanes",
+        b:"Earthquakes",
+        c:"Undersea landslides",
+        d:"Volcanic eruptions",
+        ans:"ans1"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -153,35 +152,35 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
+    option3.style.display="none";
     option2.style.display="none";
-    option1.style.display="none";
     fifty.style.display = "none";
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
-    option2.style.display="none";
+    option1.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
-    option1.style.display="none";
-    option3.style.display="none";
+    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
@@ -192,31 +191,31 @@ continueBtn.addEventListener("click", () => {
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option3.style.display="none";
     fifty.style.display = "none";
    }
 });
 
-hint.addEventListener("click",() =>{
+/*hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -302,32 +301,32 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
-    option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block";
+    option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
+        option1.style.display="block";
         option4.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
-        option1.style.display="block";
-        option3.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
@@ -336,25 +335,25 @@ question.innerHTML=questionList.question;
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
+}
 
 
 
@@ -363,7 +362,7 @@ option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 20;
 
 }
 loadQuestion();

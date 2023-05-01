@@ -1,83 +1,83 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
+        question:"Q1.Under Shivaji's rule, the head of a unit of 25 in the Cavalry was known as",
+        a:"Jumadar",
+        b:"Havaldar",
+        c:"Faujdar",
+        d:"Hazari",
         ans:"ans2"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
+        question:"Q2.Who Invented the 3-D printer?",
+        a:"Nick Holonyak",
+        b:"Elias Howe",
+        c:"Chuck Hull",
+        d:"Christiaan Huygens",
         ans:"ans3"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
+        question:"Q3.What is the maximum number of Members in Lok Sabha?",
+        a:"512",
+        b:"542",
+        c:"552",
+        d:"532",
         ans:"ans3"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
+         question:"Q4.Fatehpur Sikri was founded as the capital of the Mughal Empire by ______.",
+         a:"Jahangir",
+         b:"Akbar",
+         c:"Babur",
+         d:"Humayun",
          ans:"ans2"
     },
     {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
-    },
-    {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
+        question:"Q5.Who was court poet of Samudragupta?",
+        a:"Chand Bardai",
+        b:"Bhavabhuti",
+        c:"Banabhatta",
+        d:"Harishen",
         ans:"ans4"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+        question:"Q6.Which Veda depicts the information about the most ancient Vedic age culture?",
+        a:"Atharvaveda",
+        b:"Samaveda",
+        c:"Rig Veda",
+        d:"Yajurveda",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q7.Which of the following rulers issued copper coins named as Jittal?",
+        a:"Iltutmish",
+        b:"Quli Qutub Shah",
+        c:"Mohammad bin Tughlaq",
+        d:"Firoz Shah Tughlaq",
+        ans:"ans1"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Who was the first Tirthankara of the Jains?",
+        a:"Ajitnath",
+        b:"Rishabhdev",
+        c:"Aristhenemi",
+        d:"Parshwnath",
+        ans:"ans2"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q9.The maginot line exists between which country?",
+        a:"France and Germany",
+        b:"Germany and Poland",
+        c:"Namibia and Angola",
+        d:"USA and Canada",
+        ans:"ans1"
+    },
+    {
+        question:"Q10.The Grand Canyon located in which country?",
+        a:"Ghana",
+        b:"The US",
+        c:"Canada",
+        d:"Bolivia",
+        ans:"ans2"
     }
 
 ];

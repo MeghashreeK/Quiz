@@ -1,128 +1,96 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
+        question:"Q1.What was the first movie of Megastar Chiranjeevi?",
+        a:"Nana oori pandavalu",
+        b:"Biggboss",
+        c:"2",
+        d:"Donga",
+        ans:"ans4",
+        conhint:"Actress:Radha"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
+        question:"Q2.Which was the 1st movie directed by Yogaraj Bhat?",
+        a:"Mungaru male",
+        b:"Galipata",
+        c:"Mani",
+        d:"Manasare",
+        ans:"ans3",
+        conhint:"Bead"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
+        question:"Q3.Which Bollywood actor was honoured with the 24th Crystal Award at the world Economic Forum meeting in january 2018?",
+        a:"Shahrukh Khan",
+        b:"Aamir Khan",
+        c:"Salman Khan",
+        d:"Saif Ali Khan",
+        ans:"ans3",
+        conhint:"First movie:Biwi ho to aise"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
+         question:"Q4.Who directed Dil Chahta Hai?",
+         a:"Amir Khan",
+         b:"Zoya Akhtar",
+         c:"Reema Kagti",
+         d:"Farhan Akhtar",
+         ans:"ans4",
+         conhint:"Don"
     },
     {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
+        question:"Q5.Which of these people sang a part in the song 'Maahi Ve'?",
+        a:"Alka Yagnik",
+        b:"Shaan",
+        c:"Loy Mendosa",
+        d:"Sadhana Sargam",
+        ans:"ans2",
+        conhint:"Chand Sifarish"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q6.Which Bollywood personality has launched an online platform called 'Pravasi Rojgar' to help migrants find job opportunities?",
+        a:"Nana Patekar",
+        b:"Nawazuddin Siddiqui",
+        c:"Sonu Sood",
+        d:"Amitabh Bachchan",
+        ans:"ans3",
+        conhint:"Samrat Prithviraj"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q7.The famous dialogue kyare bul bul mataadakilva  is from which movie?",
+        a:"Nagarahole",
+        b:"Nagarahavu",
+        c:"Mandyada gandu",
+        d:"Masanada hoovu",
+        ans:"ans2",
+        conhint:"Actor:Dr.Vishnuvardhan"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q8.Which movie did Thalapathy vijay and Ajith act together?",
+        a:"Nanban",
+        b:"Rajavin paruvaiyile",
+        c:"Selva",
+        d:"Chandraleka",
+        ans:"ans3",
+        conhint:"Song:Dont care Master"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.Which is the first Malayalam movie cross 50 cr and 75 cr?",
+        a:"Nayatta",
+        b:"Kala",
+        c:"Drishyam",
+        d:"Veyil",
+        ans:"ans1",
+        conhint:"Scene"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.On which year Shankar Nag died?",
+        a:"1988",
+        b:"1991",
+        c:"1986",
+        d:"1990",
+        ans:"ans1",
+        conhint:"Rihanna born in the year______"
     }
 
 ];
-
-
-// const quizDB =[
-//     {
-//         question:"Q1.What is the full form of HTML?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans4",
-//         conhint:"my11"
-//     },
-//     {
-//         question:"Q2.What is the full form of CSS?",
-//         a:"Cascading Style Sheet",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my12"
-//     },
-//     {
-//         question:"Q3.What is the full form of HTTP?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Transfer Protocol",
-//         ans:"ans4",
-//         conhint:"my13"
-//     },
-//     {
-//         question:"Q4.What is the full form of JS?",
-//         a:"JavaScript",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my14"
-//     }
-
-// ];
-
 let guide = document.querySelector("#guide");
 let continueBtn = document.querySelector("#continue");
 let quiz=document.querySelector("#quiz");
@@ -153,69 +121,69 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
     option1.style.display="none";
     fifty.style.display = "none";
+    // fifty.classList.remove('fifty1');
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
+    option1.style.display="none";
     option2.style.display="none";
-    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
     option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
     option2.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
+    option3.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
-    option1.style.display="none";
     option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
     option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
 });
-
 hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
@@ -280,7 +248,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});*/
+});
 
 
 
@@ -302,7 +270,7 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
@@ -311,59 +279,57 @@ question.innerHTML=questionList.question;
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
-        option4.style.display="block";   
+        option1.style.display="block";
+        option2.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
         option1.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
         option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
         option2.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
+        option3.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
-
-
+}
 
 
 option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 30;
 
 }
 loadQuestion();
@@ -430,3 +396,4 @@ const btn = document.getElementById("hint");
 //         targetDiv.style.display = "flex";
 //     }
 //     };
+

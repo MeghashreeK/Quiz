@@ -437,4 +437,3 @@ const btn = document.getElementById("hint");
 //         targetDiv.style.display = "flex";
 //     }
 //     };
-

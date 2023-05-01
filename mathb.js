@@ -1,87 +1,86 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
-    },
-    {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
-    },
-    {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
+        question:"Q1.121 Divided by 11 is",
+        a:"11",
+        b:"10",
+        c:"19",
+        d:"18",
         ans:"ans1"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q2.60 Times of 8 Equals to",
+        a:"480",
+        b:"300",
+        c:"250",
+        d:"400",
+        ans:"ans1"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+        question:"Q3.Find the Missing Term in Multiples of 6 : 6, 12, 18, 24, _, 36, 42, _, 54, 60.",
+        a:"32, 45",
+        b:"30, 48",
+        c:"24, 40",
+        d:"25, 49",
+        ans:"ans2"
+    },
+    {
+         question:"Q4.What is the Next Prime Number after 7 ?",
+         a:"13",
+         b:"12",
+         c:"14",
+         d:"11",
+         ans:"ans4"
+    },
+    {
+        question:"Q5.Solve 3 + 6 × ( 5 + 4) ÷ 3 - 7",
+        a:"11",
+        b:"16",
+        c:"14",
+        d:"15",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q6.Solve 23 + 3 ÷ 3",
+        a:"24",
+        b:"25",
+        c:"26",
+        d:"27",
+        ans:"ans1"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q7.What is 6% Equals to",
+        a:"0.06",
+        b:"0.6",
+        c:"0.006",
+        d:"0.0006",
+        ans:"ans1"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
+        question:"The Product of 131 × 0 × 300 × 4",
+        a:"11",
+        b:"0",
+        c:"46",
+        d:"45",
+        ans:"ans2"
+    },
+    {
+        question:"Q9.How Many Years are there in a Decade?",
+        a:"5 years",
+        b:"10 years",
+        c:"15 years",
+        d:"20 years",
+        ans:"ans2"
+    },
+    {
+        question:"Q10.How Many Months Make a Century?",
+        a:"12",
+        b:"120",
+        c:"1200",
+        d:"12000",
         ans:"ans3"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -156,32 +155,32 @@ continueBtn.addEventListener("click", () => {
 /*fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
+    option3.style.display="none";
     option2.style.display="none";
-    option1.style.display="none";
     fifty.style.display = "none";
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
-    option2.style.display="none";
+    option1.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
-    option1.style.display="none";
-    option3.style.display="none";
+    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
@@ -192,25 +191,25 @@ continueBtn.addEventListener("click", () => {
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option3.style.display="none";
     fifty.style.display = "none";
    }
@@ -306,28 +305,28 @@ question.innerHTML=questionList.question;
 {
     if(quizDB[questionCount]===quizDB[1])
     {
-    option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block";
+    option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
+        option1.style.display="block";
         option4.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
-        option1.style.display="block";
-        option3.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
@@ -336,18 +335,18 @@ question.innerHTML=questionList.question;
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }
@@ -363,7 +362,7 @@ option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 20;
 
 }
 loadQuestion();

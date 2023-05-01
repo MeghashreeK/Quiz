@@ -1,87 +1,86 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
-    },
-    {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
-    },
-    {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
-    },
-    {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
+        question:"Q1.On which year Shankar Nag died?",
+        a:"1988",
+        b:"1991",
+        c:"1986",
+        d:"1990",
         ans:"ans4"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+        question:"Q2.Which is the highest grossing Tamil movie in Tamil Nadu?",
+        a:"Varisu",
+        b:"Ponniyan Selvan 1",
+        c:"Kabali",
+        d:"Vikram",
+        ans:"ans2"
+    },
+    {
+        question:"Q3.Which is the first South Indian movie nominated for Oscar?",
+        a:"Nayakan",
+        b:"Swathi Muthyam",
+        c:"Piravi",
+        d:"RRR",
+        ans:"ans2"
+    },
+    {
+         question:"Q4.Which is the first kannada movie?",
+         a:"Pandari Bai",
+         b:"Bhakta dhruva",
+         c:"Sati sulochana",
+         d:"Gubbi veerana",
+         ans:"ans3"
+    },
+    {
+        question:"Q5.In which movie Tammana act with hero ram?",
+        a:"Devdas",
+        b:"Happy days",
+        c:"Ganesh",
+        d:"Ready",
+        ans:"ans4"
+    },
+    {
+        question:"Q6..The movie “Saathiya” included which of the following songs?",
+        a:"Aao Na",
+        b:"Tere Liye",
+        c:"Dola Re Dola",
+        d:"Chhalka Re",
+        ans:"ans4"
+    },
+    {
+        question:"Q7.Finish the quote from Deewar: 'Mere paas _____.'",
+        a:"Baap hai",
+        b:"Paisa hai",
+        c:"Maa hai",
+        d:"Naya Iphone hai",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
+        question:"Q8.Which movie is this groundbreaking line from:'Teja main hoon, Mark idhar hai'",
+        a:"Hera Pheri",
+        b:"Welcome",
+        c:"Maine Pyaar Kiya",
+        d:"Andaz Apna Apna",
+        ans:"ans4"
+    },
+    {
+        question:"Q9.Name Aamir Khan's character in Oscar nominated movie Lagaan ?",
+        a:"Ritvik",
+        b:"Raj",
+        c:"Bhuvan",
+        d:"Jai",
         ans:"ans3"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.Who was the director of 3 idiots movie ?",
+        a:"Hrishikesh Mukherjee",
+        b:"Sarath Khanna",
+        c:"Amitabh Bachchan",
+        d:"Rajkumar Hirani",
+        ans:"ans4"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -156,32 +155,32 @@ continueBtn.addEventListener("click", () => {
 /*fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
+    option3.style.display="none";
     option2.style.display="none";
-    option1.style.display="none";
     fifty.style.display = "none";
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
-    option2.style.display="none";
+    option1.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
-    option1.style.display="none";
-    option3.style.display="none";
+    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
@@ -192,25 +191,25 @@ continueBtn.addEventListener("click", () => {
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option3.style.display="none";
     fifty.style.display = "none";
    }
@@ -306,28 +305,28 @@ question.innerHTML=questionList.question;
 {
     if(quizDB[questionCount]===quizDB[1])
     {
-    option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block";
+    option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
+        option1.style.display="block";
         option4.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
-        option1.style.display="block";
-        option3.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
@@ -336,18 +335,18 @@ question.innerHTML=questionList.question;
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }
@@ -363,7 +362,7 @@ option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 20;
 
 }
 loadQuestion();

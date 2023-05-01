@@ -1,87 +1,86 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
+        question:"Q1.The decimal expansion of 22/7  is",
+        a:"Terminating",
+        b:"Non-terminating and repeating",
+        c:"Non-terminating and Non-repeating",
+        d:"None of the above",
         ans:"ans2"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
+        question:"Q2.For some integer n, the odd integer is represented in the form of:",
+        a:"n",
+        b:"n + 1",
+        c:"2n + 1",
+        d:"2n",
         ans:"ans3"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
+        question:"Q3.HCF of 26 and 91 is:",
+        a:"15",
+        b:"13",
+        c:"19",
+        d:"11",
+        ans:"ans2"
+    },
+    {
+         question:"Q4.Which of the following is not irrational?",
+         a:"(3 + √7)",
+         b:"(3 - √7)2",
+         c:"(3 + √7) (3 - √7)",
+         d:"3√7",
+         ans:"ans3"
+    },
+    {
+        question:"Q5.The addition of a rational number and an irrational number is equal to:",
+        a:"rational number",
+        b:"Irrational number",
+        c:"Both",
+        d:"None of the above",
+        ans:"ans2"
+    },
+    {
+        question:"Q6.The multiplication of two irrational numbers is:",
+        a:"irrational number",
+        b:"rational number",
+        c:"Maybe rational or irrational",
+        d:"None",
         ans:"ans3"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
-    },
-    {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
-    },
-    {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+        question:"Q7.If set A = {1, 2, 3, 4, 5,…} is given, then it represents:",
+        a:"Whole numbers",
+        b:"Rational Numbers",
+        c:"Natural numbers",
+        d:"Complex numbers",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
+        question:"Q8.If p and q are integers and is represented in the form of p/q, then it is a:",
+        a:"Whole number",
+        b:"Rational number",
+        c:"Natural number",
+        d:"Even number",
+        ans:"ans2"
+    },
+    {
+        question:"Q9.The largest number that divides 70 and 125, which leaves the remainders 5 and 8, is:",
+        a:"65",
+        b:"15",
+        c:"13",
+        d:"25",
         ans:"ans3"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.The least number that is divisible by all the numbers from 1 to 5 is:",
+        a:"12",
+        b:"60",
+        c:"80",
+        d:"90",
+        ans:"ans2"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -153,59 +152,59 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
-    option2.style.display="none";
+    option3.style.display="none";
     option1.style.display="none";
     fifty.style.display = "none";
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
-    option2.style.display="none";
+    option1.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
     option2.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
@@ -216,7 +215,7 @@ continueBtn.addEventListener("click", () => {
    }
 });
 
-hint.addEventListener("click",() =>{
+/*hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -302,59 +301,59 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
-    option2.style.display="block";
+    option3.style.display="block";
     option1.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
+        option1.style.display="block";
         option4.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
         option1.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
-        option1.style.display="block";
+        option2.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
         option2.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
+        option2.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
+}
 
 
 
@@ -363,7 +362,7 @@ option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 20;
 
 }
 loadQuestion();

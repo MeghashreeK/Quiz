@@ -1,82 +1,82 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
+        question:"Q1.Name the first Hindi Movie that received the national award.",
+        a:"Dilwale Dulhania Le Jayenge",
+        b:"Zindagi Na Milegi Dobara",
+        c:"Mirza Ghalib",
+        d:"Azaad",
+        ans:"ans3"
+    },
+    {
+        question:"Q2.How many songs did Kishore Kumar sung in his life ?",
+        a:"975 songs",
+        b:"1792 songs",
+        c:"2678 songs",
+        d:"643 songs",
+        ans:"ans3"
+    },
+    {
+        question:"Q3.What is the name of Sholay's iconic villain?",
+        a:"Kalia",
+        b:"Gabbar Singh",
+        c:"Shakaal",
+        d:"Bulla",
         ans:"ans2"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
+         question:"Q4.In which year was Aishwarya Rai crowned Miss World?",
+         a:"1991",
+         b:"1996",
+         c:"1994",
+         d:"1990",
+         ans:"ans3"
+    },
+    {
+        question:"Q5.Which is the first golden jubilee film of India?",
+        a:"Pundalik",
+        b:"Alam Ara",
+        c:"Sant Tukaram",
+        d:"Raja Harishchandr",
         ans:"ans3"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
+        question:"Q6.Which is the first Sanskrit film?",
+        a:"Shankaracharya",
+        b:"Bhagavad Gita",
+        c:"Gunda",
+        d:"Margazhi Raagam",
         ans:"ans1"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q7.Which is the first serialised animation film in India?",
+        a:"Ek Anek aur ekta",
+        b:"Ghayab Aya",
+        c:"Kittu",
+        d:"Motu Patlu",
+        ans:"ans2"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q8.Which movie from India won the best film award in the Asian Film Competition section at the 20th Dhaka International Film Festival in January 2022?",
+        a:"Sulthan",
+        b:"Koozhangal",
+        c:"Maanaadu",
+        d:"Annaatthe",
+        ans:"ans2"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.Who plays the female lead in the movie 'Chandni Chowk to China'?",
+        a:"Kajol",
+        b:"Deepika Padukone",
+        c:"Alia Bhat",
+        d:"Shraddha Kapoor",
+        ans:"ans2"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
+        question:"Q10.Not many people know that Tara Sutaria is also a professional______.",
+        a:"Model",
+        b:"Actress",
+        c:"Singer",
+        d:"Dancer",
         ans:"ans3"
     }
 
@@ -153,7 +153,7 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
@@ -199,24 +199,24 @@ continueBtn.addEventListener("click", () => {
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
 });
 
-hint.addEventListener("click",() =>{
+/*hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -302,7 +302,7 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
@@ -342,19 +342,19 @@ question.innerHTML=questionList.question;
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
+}
 
 
 

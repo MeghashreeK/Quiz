@@ -1,83 +1,83 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
-    },
-    {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
+        question:"Q1.Statement A:The pole of a magnet cannot be separated by breaking the magnet into two pieces.Statement B: Magnetic monopoles do not exist.",
+        a:"Statement A is correct",
+        b:"Statement B is correct",
+        c:"Both A and B are correct",
+        d:"Both A and B are incorrect",
         ans:"ans3"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
+        question:"Q2.The instrument _________ is used for detecting electric current is ",
+        a:"Galvanometer",
+        b:"Tube tester",
+        c:"Altimeter",
+        d:"Fathometer",
         ans:"ans1"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
+        question:"Q3.Magnetism at the centre of a bar magnet is ______. ",
+        a:"Half of the poles",
+        b:"Maximum",
+        c:"Minimum",
+        d:"Zero",
         ans:"ans4"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+         question:"Q4.An ammeter is connected in ________ with the circuit. ",
+         a:"parallel",
+         b:"series",
+         c:"both parallel and series",
+         d:"None of the above",
+         ans:"ans2"
+    },
+    {
+        question:"Q5.Electric current may be expressed in which one of the following units?",
+        a:"coulombs/volt",
+        b:"joules/coulomb",
+        c:"coulombs/second",
+        d:"ohms/second",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
+        question:"Q6.For an object moving in uniform circular motion, the direction of the instantaneous acceleration vector is:",
+        a:"tangent to the path of motion",
+        b:"equal to zero",
+        c:"directed radially outward",
+        d:"directed radially inward",
+        ans:"ans4"
+    },
+    {
+        question:"Q7.. The work done by a friction force is: ",
+        a:"always positive",
+        b:"always negative",
+        c:"always zero",
+        d:"either positive or negative depending upon the situation",
+        ans:"ans2"
+    },
+    {
+        question:"Q8.Electric charge may be expressed in which one of the following units?",
+        a:"coulombs/volt",
+        b:"joules/coulomb",
+        c:"coulombs",
+        d:"ohms/second",
         ans:"ans3"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.Force F= ",
+        a:"mra",
+        b:"mr",
+        c:"mt",
+        d:"ma",
+        ans:"ans4"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.Work is equal to which of the following? ",
+        a:"the cross product of force and displacement.",
+        b:"the product of force times time",
+        c:"force divided by time",
+        d:"the dot product of force and displacement",
+        ans:"ans2"
     }
 
 ];
@@ -153,7 +153,7 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
@@ -216,7 +216,7 @@ continueBtn.addEventListener("click", () => {
    }
 });
 
-hint.addEventListener("click",() =>{
+/*hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -302,7 +302,7 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
@@ -354,7 +354,7 @@ question.innerHTML=questionList.question;
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
+}
 
 
 
@@ -363,7 +363,7 @@ option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 20;
 
 }
 loadQuestion();

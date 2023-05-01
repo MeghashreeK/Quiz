@@ -1,128 +1,96 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
+        question:"Q1.When was the first human heart transplant operation, which was performed by Dr. Christian Bernard on Louis Washkansky conducted?",
+        a:"1943",
+        b:"1988",
+        c:"1967",
+        d:"1963",
+        ans:"ans3",
+        conhint:"Corporation for Public Broadcasting was created in the year!"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
+        question:"Q2.Which is the religion for which the Fire temple is the place of worship?",
+        a:"Hinduism",
+        b:"Jainism",
+        c:"Zoroastrianism",
+        d:"Buddhism",
+        ans:"ans3",
+        conhint:"An Iranian Religion"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
+        question:"Q3.Where can Coral reefs be found in India?",
+        a:"The Malabar Coast",
+        b:"Rameshwaram",
+        c:"Trivandrum",
+        d:"Mahabalipuram",
+        ans:"ans2",
+        conhint:"South eastern TamilNadu"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
+         question:"Q4.The United Nations Organization has its Headquarters at ",
+         a:"Bali",
+         b:"Hague",
+         c:"New York, USA",
+         d:"Washington DC",
+         ans:"ans3",
+         conhint:"One of the holiest Hindu Char Dham"
     },
     {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
+        question:"Q5.Objects at the surface of water can be viewed from a submarine under water by using this instrument.",
+        a:"Stethescope",
+        b:"Periscope",
+        c:"Kaleidoscope",
+        d:"Telescope",
+        ans:"ans2",
+        conhint:"Lets you look around walls, corners or other obstacles."
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q6.Professor Amartya Sen received the Nobel Prize in this field.",
+        a:"Literature",
+        b:"Electronics",
+        c:"Economics",
+        d:"Geology",
+        ans:"ans3",
+        conhint:"Adam Smith is the Father of ?"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q7.Which of the following musical instruments is played by Amjad Ali Khan?",
+        a:"Veena",
+        b:"Tabla",
+        c:"Sarod",
+        d:"Guitar",
+        ans:"ans3",
+        conhint:"It is also known as Bass Rubab."
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q8.Greta Garbo is associated with",
+        a:"Classical dance",
+        b:"Music",
+        c:"Acting",
+        d:"Literature",
+        ans:"ans3",
+        conhint:"Doing the job mentioned for a short time."
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.Dr. V. Kurien is famous in the field of _________.",
+        a:"Atomic power",
+        b:"Dairy development",
+        c:"Economic reforms",
+        d:"Poultry farms",
+        ans:"ans2",
+        conhint:"Cheese"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.Ms. Meera Sahib Fathima Beevi has the distinction of being the first lady",
+        a:"Prime minister of Pakisthan",
+        b:"Judge of the District Court",
+        c:"Chief Minister of a State",
+        d:"Judge of Supreme Court",
+        ans:"ans4",
+        conhint:"Dhananjaya Y Chandrachud (Present)"
     }
 
 ];
-
-
-// const quizDB =[
-//     {
-//         question:"Q1.What is the full form of HTML?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans4",
-//         conhint:"my11"
-//     },
-//     {
-//         question:"Q2.What is the full form of CSS?",
-//         a:"Cascading Style Sheet",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my12"
-//     },
-//     {
-//         question:"Q3.What is the full form of HTTP?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Transfer Protocol",
-//         ans:"ans4",
-//         conhint:"my13"
-//     },
-//     {
-//         question:"Q4.What is the full form of JS?",
-//         a:"JavaScript",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my14"
-//     }
-
-// ];
-
 let guide = document.querySelector("#guide");
 let continueBtn = document.querySelector("#continue");
 let quiz=document.querySelector("#quiz");
@@ -153,69 +121,69 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
-    option1.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
+    // fifty.classList.remove('fifty1');
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
+    option1.style.display="none";
     option2.style.display="none";
-    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
     option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
     option2.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
-    option1.style.display="none";
     option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
     option3.style.display="none";
+    option1.style.display="none";
     fifty.style.display = "none";
    }
 });
-
 hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
@@ -280,7 +248,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});*/
+});
 
 
 
@@ -302,68 +270,66 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
     option2.style.display="block";
-    option1.style.display="block"; 
+    option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
-        option4.style.display="block";   
+        option1.style.display="block";
+        option2.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
         option1.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
         option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
         option2.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
+        option2.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
-
-
+}
 
 
 option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 30;
 
 }
 loadQuestion();

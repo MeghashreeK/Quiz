@@ -1,87 +1,86 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
+        question:"Q1.A man presses more weight on earth at :",
+        a:"Sitting position",
+        b:"Standing position",
+        c:"Lying position",
+        d:"None of these",
         ans:"ans2"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
-    },
-    {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
+        question:"Q2.An artificial Satellite revolves round the Earth in circular orbit, which quantity remains constant?",
+        a:"Angular Momentum",
+        b:"Linear Velocity",
+        c:"Angular Displacement",
         d:"None of these",
         ans:"ans1"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
+        question:"Q3.Which law is also called the law of inertia?",
+        a:"Newton's first Law",
+        b:"Newton's Second Law",
+        c:"Newton's Third Law",
+        d:"All of these",
+        ans:"ans1"
+    },
+    {
+         question:"Q4.What is the unit of Astronomical Distance?",
+         a:"Light year",
+         b:"Angstrom",
+         c:"Weber",
+         d:"Lux",
+         ans:"ans1"
+    },
+    {
+        question:"Q5.Energy possessed by a body in motion is called",
+        a:"Kinetic Energy",
+        b:"Potential Energy",
+        c:"Both A and B",
+        d:"None of these",
+        ans:"ans1"
+    },
+    {
+        question:"Q6.What is the scale used for measuring the intensity of the earthquake?",
+        a:"Metric Scale",
+        b:"Quake Scale",
+        c:"Richter Scaler",
+        d:"Epicentre Scale",
+        ans:"ans3"
+    },
+    {
+        question:"Q7.With the increase of pressure, the boiling point of any substance",
+        a:"Increases",
+        b:"Decreases",
+        c:"Remains Same",
+        d:"Becomes zero",
+        ans:"ans1"
+    },
+    {
+        question:"Q8.Which one of the following has the highest value of specific heat?",
+        a:"Alcohol",
+        b:"Methane",
         c:"Kerosene",
-        d:"Pine Oil",
+        d:"Water",
         ans:"ans4"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q9.Which of the following terms is not used in the field of physics?",
+        a:"Latent heat",
+        b:"Nuclear fusion",
+        c:"Refractive index",
+        d:"Stock value",
+        ans:"ans4"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.The absorption of ink by blotting paper involves: ",
+        a:"Viscocity of ink",
+        b:"Capillary action phenomenon",
+        c:"Diffusion",
+        d:"Siphon action",
+        ans:"ans2"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -156,32 +155,32 @@ continueBtn.addEventListener("click", () => {
 /*fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
+    option3.style.display="none";
     option2.style.display="none";
-    option1.style.display="none";
     fifty.style.display = "none";
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
-    option2.style.display="none";
+    option1.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
-    option1.style.display="none";
-    option3.style.display="none";
+    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
@@ -192,25 +191,25 @@ continueBtn.addEventListener("click", () => {
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option1.style.display="none";
-    option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option3.style.display="none";
     fifty.style.display = "none";
    }
@@ -306,28 +305,28 @@ question.innerHTML=questionList.question;
 {
     if(quizDB[questionCount]===quizDB[1])
     {
-    option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block";
+    option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
+        option1.style.display="block";
         option4.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
-        option1.style.display="block";
-        option3.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
@@ -336,18 +335,18 @@ question.innerHTML=questionList.question;
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block";
+        option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option1.style.display="block";
-        option2.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }

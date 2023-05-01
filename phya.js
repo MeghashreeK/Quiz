@@ -1,128 +1,97 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
+        question:"Q1.A 220 V, 100 W bulb is connected to a 110 V source. Calculate the power consumed by the bulb.",
+        a:"10 W",
+        b:"15 W",
+        c:"20 W",
+        d:"25 W",
+        ans:"ans4",
+        conhint:"(0.5×(2×5))^2"
+
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
+        question:"Q2.A man weighing 65 kg jumps from a 100 ft high building with a load of 35 kg. What will be the load experienced by him?",
+        a:"20 kg",
+        b:"100 kg",
+        c:"300 kg",
+        d:"0 kg",
+        ans:"ans4",
+        conhint:"2×4×5×6×7×9×0×6×5×4×8"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
+        question:"Q3.Pressure cooker cooks rice faster because",
+        a:"It always lets the steam escape",
+        b:"High pressure raises the boiling point of water",
+        c:"It does not let the heat energy escape easily",
+        d:"High pressure crushes the hard covering of rice grains",
+        ans:"ans2",
+        conhint:"↑"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
+         question:"Q4.Where is image formed when an object is placed beyond the centre of curvature of concave mirror?",
+         a:"At the Centre of Curvature",
+         b:"Beyond the Centre of Curvature",
+         c:"Between Focus and the Centre of Curvature",
+         d:"At Infinity",
+         ans:"ans3",
+         conhint:"F      .       C"
     },
     {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
+        question:"Q5.An object which produces high energy and is very distant is the",
+        a:"globular cluster",
+        b:"open cluster",
+        c:"nebula",
+        d:"quasar",
+        ans:"ans4",
+        conhint:"Supermassive black hole"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q6.The first successful liquid fuel rocket was launched by",
+        a:"Yuri Gagarian",
+        b:"Robert Goddard",
+        c:"Jules Verne",
+        d:"Konstantin Tsiolkovosky",
+        ans:"ans2",
+        conhint:"Received Langley Gold medal in 1960"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q7.Pioneer and Voyager were sent to",
+        a:"Jupiter",
+        b:"Mars",
+        c:"Venus",
+        d:"Moon",
+        ans:"ans2",
+        conhint:"Red planet"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q8.PKS 0637-752 has a mass equal to ",
+        a:"1 billion suns",
+        b:"10 billion suns",
+        c:"1 billion earth",
+        d:"10 billion earth",
+        ans:"ans2",
+        conhint:"10×10^3 jupiters"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.The first probe space which focused mainly on comet was",
+        a:"Stardust",
+        b:"Clementine",
+        c:"Venera",
+        d:"Pioneer",
+        ans:"ans4",
+        conhint:"Charismatic quality"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.The brightness of a star which can be seen from earth is called ",
+        a:"absolute magnitude",
+        b:"apparent magnitude",
+        c:"light year",
+        d:"parallax",
+        ans:"ans2",
+        conhint:"Along the line of sight to the observer"
     }
 
 ];
-
-
-// const quizDB =[
-//     {
-//         question:"Q1.What is the full form of HTML?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans4",
-//         conhint:"my11"
-//     },
-//     {
-//         question:"Q2.What is the full form of CSS?",
-//         a:"Cascading Style Sheet",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my12"
-//     },
-//     {
-//         question:"Q3.What is the full form of HTTP?",
-//         a:"HELLO To My Land",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Transfer Protocol",
-//         ans:"ans4",
-//         conhint:"my13"
-//     },
-//     {
-//         question:"Q4.What is the full form of JS?",
-//         a:"JavaScript",
-//         b:"Hey text Markup Language",
-//         c:"Hypertext Makeup Language",
-//         d:"Hypertext Markup Language",
-//         ans:"ans1",
-//         conhint:"my14"
-//     }
-
-// ];
-
 let guide = document.querySelector("#guide");
 let continueBtn = document.querySelector("#continue");
 let quiz=document.querySelector("#quiz");
@@ -153,69 +122,69 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
-    option1.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
+    // fifty.classList.remove('fifty1');
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
+    option1.style.display="none";
     option2.style.display="none";
-    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
     option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
-    option1.style.display="none";
+    option3.style.display="none";
     option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
-    option2.style.display="none";
     option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
+    option3.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
-    option1.style.display="none";
+    option3.style.display="none";
     option2.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
     option3.style.display="none";
+    option1.style.display="none";
     fifty.style.display = "none";
    }
 });
-
 hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
@@ -280,7 +249,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});*/
+});
 
 
 
@@ -302,51 +271,51 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
     option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
-        option4.style.display="block";   
+        option1.style.display="block";
+        option2.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
         option1.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
         option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
-        option1.style.display="block";
+        option3.style.display="block";
         option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
-        option2.style.display="block";
-        option3.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
+        option3.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else
     {
-        option1.style.display="block";
+        option3.style.display="block";
         option2.style.display="block"; 
     }
     
@@ -354,16 +323,14 @@ question.innerHTML=questionList.question;
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
-
-
+}
 
 
 option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 30;
 
 }
 loadQuestion();

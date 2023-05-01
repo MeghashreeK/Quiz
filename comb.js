@@ -1,82 +1,82 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
+        question:"Q1.A computer program that translates one statement of program instructions at a time into machine language is called ",
+        a:"CPU",
+        b:"Interpreter",
+        c:"Compiler",
+        d:"Simulator",
         ans:"ans2"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
+        question:"Q2.NTFS stands for?",
+        a:"New Trend File Saving",
+        b:"Network File Saving",
+        c:"New Technology File System",
+        d:"None Of These",
         ans:"ans3"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
-    },
-    {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
-    },
-    {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
-        d:"None of these",
-        ans:"ans1"
-    },
-    {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
+        question:"Q3.Which variable type can have only two possible values?",
+        a:"integer",
+        b:"string",
+        c:"double",
+        d:"bool",
         ans:"ans4"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
+         question:"Q4.In computer science and information technology (IT), DNS is an abbreviation of",
+         a:"Direct Name System",
+         b:"Domain Name System",
+         c:"Direct Name Software",
+         d:"Domain Name Software",
+         ans:"ans2"
+    },
+    {
+        question:"Q5.In C++, the library function exit() causes an exit from the",
+        a:"statement",
+        b:"loop in which it occurs",
+        c:"function in which it occurs",
+        d:"program in which it occurs",
+        ans:"ans4"
+    },
+    {
+        question:"Q6.In C++, a function name must be followed by",
+        a:"braces",
+        b:"parentheses",
+        c:"statement",
+        d:"variable name",
+        ans:"ans2"
+    },
+    {
+        question:"Q7.Pages of a website are interlinked through",
+        a:"HTTP",
+        b:"marquee",
+        c:"hyperlinks",
+        d:"IP address",
         ans:"ans3"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q8.Which of the following operating system is based on open-source software?",
+        a:"Macintosh",
+        b:"Windows 2000",
+        c:"Windows NT",
+        d:"Linux",
+        ans:"ans4"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.C++ is an object oriented language, and C, BASIC, and Pascal are ________ languages.",
+        a:"procedural",
+        b:"scripting",
+        c:"general purpose",
+        d:"web based",
+        ans:"ans1"
     },
     {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
+        question:"Q10.The amount of time taken by a device to begin reading data is called",
+        a:"Seek time",
+        b:"Read time",
+        c:"Access time",
+        d:"Write time",
         ans:"ans3"
     }
 

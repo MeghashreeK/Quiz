@@ -1,87 +1,96 @@
 const quizDB =[
     {
-        question:"Q1.Heavy metal pollution of water is caused by:",
-        a:"Acid Plants",
-        b:"Paints",
-        c:"Wood Burning",
-        d:"Domestic Sewage",
-        ans:"ans2"
+        question:"Q1.Consider the main body of a C++ program,:string var1 = “Computer “;string var2 = “Science”;string var3 = var1 + var2;cout << “var3” << endl; If the program is run, what will be displayed on the screen?",
+        a:"var3",
+        b:"Computer",
+        c:"Science",
+        d:"Computer Science",
+        ans:"ans1",
+        conhint:"cout<< is used for displaying output"
     },
     {
-        question:"Q2.Atmosphere contains dust particles, salt grains, pollen grains, smoke, etc. which are collecctively known as :",
-        a:"Water vapour",
-        b:"Ozone",
-        c:"Aerosols",
-        d:"CFC",
-        ans:"ans3"
+        question:"Q2.Bringing a page into memory only when it is needed,this mechanism is called",
+        a:"Deadlock",
+        b:"Page Fault",
+        c:"Dormant Paging",
+        d:"Demand Paging",
+        ans:"ans4",
+        conhint:"Loaded from disk into main memory"
     },
     {
-        question:"Q3.When water is added to anhydrous white copper sulphate, the color will change to :",
-        a:"Yellow",
-        b:"Green",
-        c:"Blue",
-        d:"Red",
-        ans:"ans3"
+        question:"Q3.What do you mean by Memory Compaction?",
+        a:"Combine multiple equal memory holes into one big hole",
+        b:"Combine multiple small memory holes into one big hole",
+        c:"Divide big memory hole into small holes",
+        d:"Divide memory hole by 2",
+        ans:"ans2",
+        conhint:"<<<< to >"
     },
     {
-         question:"Q4.Due to rusting the weight of iron ________",
-         a:"decreases",
-         b:"increases",
-         c:"remains the same",
-         d:"uncertain",
-         ans:"ans2"
+         question:"Q4.In peer-to-peer networking,",
+         a:"there is only one server and many clients",
+         b:"there is only one client and many servers",
+         c:"every computer is capable of playing the role of server",
+         d:"every computer is capable of playing the role of client, server or both at the same time",
+         ans:"ans4",
+         conhint:"Client server & Both"
     },
     {
-        question:"Q5.Mass number of a nucleus is",
-        a:"the sum of the number of neutrons and protons",
-        b:"always more than the atomic weight",
-        c:"always less than its atomic number",
+        question:"Q5.URL is an abbreviation for",
+        a:"Universal Resource Locator",
+        b:"Uniform Resource Locator",
+        c:"Universal Resource Location",
+        d:"Uniform Resource Location",
+        ans:"ans2",
+        conhint:"U stands for Uniform"
+    },
+    {
+        question:"Q6.The network in which we connect each node to the network along a single piece of network cable is called",
+        a:"Bus Network Topology",
+        b:"Star Network Topology",
+        c:"Ring Network Topology",
         d:"None of these",
-        ans:"ans1"
+        ans:"ans1",
+        conhint:"Movement"
     },
     {
-        question:"Q6.The oil used in the froth floatation process is",
-        a:"Coconut oil",
-        b:"Olive oil",
-        c:"Kerosene",
-        d:"Pine Oil",
-        ans:"ans4"
+        question:"Q7.The network in which we connect each network node to a central device (hub) is called",
+        a:"Bus Network Topology",
+        b:"Star Network Topology",
+        c:"Ring Network Topology",
+        d:"None of these",
+        ans:"ans2",
+        conhint:"A shape"
     },
     {
-        question:"Q7.Phosphorus is mainly extracted from",
-        a:"Sand",
-        b:"Ash",
-        c:"Bone ash",
-        d:"Fertiliser",
-        ans:"ans3"
+        question:"Q8.FTP is an abbreviation for",
+        a:"File Transfer Position",
+        b:"File Transfer Protection",
+        c:"File Transfer Protocol",
+        d:"File Transfer Possibility",
+        ans:"ans3",
+        conhint:"Ethernet & HTTP"
     },
     {
-        question:"Q8.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
+        question:"Q9.The “Macintosh” computers and laptops are manufactured by",
+        a:"Apple",
+        b:"Microsoft",
+        c:"Samsung",
+        d:"Lenovo",
+        ans:"ans1",
+        conhint:"A fruit"
     },
     {
-        question:"Q9.Which of the following is the main ingredient of cement?",
-        a:"Limestone",
-        b:"Silica Clay",
-        c:"Gypsum",
-        d:"Ash",
-        ans:"ans3"
-    },
-    {
-        question:"Q10.The macro-nutrient provided by inorganic fertilization are :",
-        a:"C, Fe, B",
-        b:"C, N, P",
-        c:"N, P, K",
-        d:"Mg, Zn, Fe",
-        ans:"ans3"
+        question:"Q10.The tool used to find a similar word in a document is called",
+        a:"Finder",
+        b:"Thesaurus",
+        c:"Dictionary",
+        d:"Find and Replace",
+        ans:"ans2",
+        conhint:"List of synonyms"
     }
 
 ];
-
 
 // const quizDB =[
 //     {
@@ -153,69 +162,69 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option2.style.display="none";
-    option1.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
+    // fifty.classList.remove('fifty1');
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
+    option1.style.display="none";
     option2.style.display="none";
-    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[2])
    {
     option1.style.display="none";
-    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[3])
    {
     option1.style.display="none";
-    option4.style.display="none";
+    option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[4])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
-    option2.style.display="none";
     option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option1.style.display="none";
+    option3.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
-    option1.style.display="none";
     option2.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
-    option1.style.display="none";
-    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
    {
-    option1.style.display="none";
     option3.style.display="none";
+    option1.style.display="none";
     fifty.style.display = "none";
    }
 });
-
 hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
@@ -280,7 +289,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});*/
+});
 
 
 
@@ -302,68 +311,66 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
     option2.style.display="block";
-    option1.style.display="block"; 
+    option3.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[2])
     {
-        option2.style.display="block";
-        option4.style.display="block";   
+        option1.style.display="block";
+        option2.style.display="block";   
     }
     else if(quizDB[questionCount]===quizDB[3])
     {
         option1.style.display="block";
-        option3.style.display="block"; 
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[4])
     {
         option1.style.display="block";
-        option4.style.display="block"; 
+        option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[5])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
-        option2.style.display="block";
-        option3.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option1.style.display="block";
+        option3.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option2.style.display="block";
+        option4.style.display="block"; 
     }
     else
     {
-        option1.style.display="block";
-        option2.style.display="block"; 
+        option3.style.display="block";
+        option4.style.display="block"; 
     }
     
 }
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
-
-
+}
 
 
 option1.innerHTML=questionList.a;
 option2.innerHTML=questionList.b;
 option3.innerHTML=questionList.c;
 option4.innerHTML=questionList.d;
-timer = 10;
+timer = 30;
 
 }
 loadQuestion();

@@ -81,6 +81,47 @@ const quizDB =[
     }
 
 ];
+
+// const quizDB =[
+//     {
+//         question:"Q1.What is the full form of HTML?",
+//         a:"HELLO To My Land",
+//         b:"Hey text Markup Language",
+//         c:"Hypertext Makeup Language",
+//         d:"Hypertext Markup Language",
+//         ans:"ans4",
+//         conhint:"my11"
+//     },
+//     {
+//         question:"Q2.What is the full form of CSS?",
+//         a:"Cascading Style Sheet",
+//         b:"Hey text Markup Language",
+//         c:"Hypertext Makeup Language",
+//         d:"Hypertext Markup Language",
+//         ans:"ans1",
+//         conhint:"my12"
+//     },
+//     {
+//         question:"Q3.What is the full form of HTTP?",
+//         a:"HELLO To My Land",
+//         b:"Hey text Markup Language",
+//         c:"Hypertext Makeup Language",
+//         d:"Hypertext Transfer Protocol",
+//         ans:"ans4",
+//         conhint:"my13"
+//     },
+//     {
+//         question:"Q4.What is the full form of JS?",
+//         a:"JavaScript",
+//         b:"Hey text Markup Language",
+//         c:"Hypertext Makeup Language",
+//         d:"Hypertext Markup Language",
+//         ans:"ans1",
+//         conhint:"my14"
+//     }
+
+// ];
+
 let guide = document.querySelector("#guide");
 let continueBtn = document.querySelector("#continue");
 let quiz=document.querySelector("#quiz");
@@ -117,7 +158,6 @@ fifty.addEventListener("click", () => {
     option1.style.display="none";
     option2.style.display="none";
     fifty.style.display = "none";
-    // fifty.classList.remove('fifty1');
     }
    else if (quizDB[questionCount]===quizDB[1])
    {
@@ -140,31 +180,31 @@ fifty.addEventListener("click", () => {
    else if (quizDB[questionCount]===quizDB[4])
    {
     option3.style.display="none";
-    option1.style.display="none";
+    option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[5])
    {
-    option1.style.display="none";
+    option2.style.display="none";
     option4.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[6])
    {
-    option4.style.display="none";
+    option1.style.display="none";
     option2.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[7])
    {
     option2.style.display="none";
-    option1.style.display="none";
+    option3.style.display="none";
     fifty.style.display = "none";
    }
    else if (quizDB[questionCount]===quizDB[8])
    {
     option3.style.display="none";
-    option1.style.display="none";
+    option4.style.display="none";
     fifty.style.display = "none";
    }
    else 
@@ -174,7 +214,8 @@ fifty.addEventListener("click", () => {
     fifty.style.display = "none";
    }
 });
-hint.addEventListener("click",() =>{
+
+/*hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -238,7 +279,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});
+});*/
 
 
 
@@ -258,7 +299,6 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
-btnd.style.display="none";
 
 
 if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
@@ -286,27 +326,27 @@ if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none"
     else if(quizDB[questionCount]===quizDB[5])
     {
         option3.style.display="block";
-        option1.style.display="block"; 
+        option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[6])
     {
-        option1.style.display="block";
+        option2.style.display="block";
         option4.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[7])
     {
-        option4.style.display="block";
+        option1.style.display="block";
         option2.style.display="block"; 
     }
     else if(quizDB[questionCount]===quizDB[8])
     {
         option2.style.display="block";
-        option1.style.display="block"; 
+        option3.style.display="block"; 
     }
     else
     {
         option3.style.display="block";
-        option1.style.display="block"; 
+        option4.style.display="block"; 
     }
     
 }
@@ -314,6 +354,8 @@ if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
 }
+
+
 
 
 option1.innerHTML=questionList.a;
@@ -387,4 +429,3 @@ const btn = document.getElementById("hint");
 //         targetDiv.style.display = "flex";
 //     }
 //     };
-
