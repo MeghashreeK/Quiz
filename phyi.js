@@ -48,7 +48,7 @@ const quizDB =[
         ans:"ans4"
     },
     {
-        question:"Q7.. The work done by a friction force is: ",
+        question:"Q7.The work done by a friction force is: ",
         a:"always positive",
         b:"always negative",
         c:"always zero",
@@ -300,6 +300,7 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
+btnd.style.display="none";
 
 
 if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 

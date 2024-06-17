@@ -125,7 +125,7 @@
  #showScore{
     width: 300px;
     border-radius: 5%;
-    /* background-color: #B9605C; */
+    /* background-color: #9fcc8b; */
     /* box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4); */
     justify-content: center;
     align-items: center;
@@ -232,7 +232,6 @@ a:link{
     border-radius: 35%;
     box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
     border-color: #9fcc8b;
-    display: none;
 }
 #hint:hover{
     background-color:  #b1d0a3;

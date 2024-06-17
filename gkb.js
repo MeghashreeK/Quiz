@@ -56,7 +56,7 @@ const quizDB =[
         ans:"ans1"
     },
     {
-        question:"Who was the first Tirthankara of the Jains?",
+        question:"Q8.Who was the first Tirthankara of the Jains?",
         a:"Ajitnath",
         b:"Rishabhdev",
         c:"Aristhenemi",
@@ -300,7 +300,8 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
-
+fifty.style.display="none";
+btnd.style.display="none";
 
 /*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {

@@ -56,7 +56,7 @@ const quizDB =[
         ans:"ans1"
     },
     {
-        question:"The Product of 131 × 0 × 300 × 4",
+        question:"Q8.The Product of 131 × 0 × 300 × 4",
         a:"11",
         b:"0",
         c:"46",
@@ -152,7 +152,7 @@ continueBtn.addEventListener("click", () => {
     interval = setInterval(countDown, 1000); 
 });
 
-/*fifty.addEventListener("click", () => {
+fifty.addEventListener("click", () => {
     if (quizDB[questionCount]===quizDB[0])
     {
     option3.style.display="none";
@@ -279,7 +279,7 @@ hint.addEventListener("click",() =>{
     }
 
     
-});*/
+});
 
 
 
@@ -299,9 +299,10 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
+fifty.style.display="none";
+btnd.style.display="none";
 
-
-/*if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
+if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])
     {
@@ -353,7 +354,7 @@ question.innerHTML=questionList.question;
 if (window.getComputedStyle(document.querySelector('.btnd')).display == "none")
 {
     hintd.style.display="none";
-}*/
+}
 
 
 
@@ -420,8 +421,8 @@ showScore.classList.remove('scoreArea');
 }
 }
 );
-const targetDiv = document.getElementById("hint1");
-const btn = document.getElementById("hint");
+// const targetDiv = document.getElementById("hint1");
+// const btn = document.getElementById("hint");
 // btn.onclick = function() {
 //     if (targetDiv.style.display !== "none") {
 //         targetDiv.style.display = "none";

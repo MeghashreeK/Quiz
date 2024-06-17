@@ -270,6 +270,7 @@ const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
 
 
+
 if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {
     if(quizDB[questionCount]===quizDB[1])

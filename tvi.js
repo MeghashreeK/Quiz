@@ -300,7 +300,7 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
-
+btnd.style.display="none";
 
 if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
 {

@@ -27,13 +27,13 @@ const quizDB =[
         conhint:"<<<< to >"
     },
     {
-         question:"Q4.In peer-to-peer networking,",
-         a:"there is only one server and many clients",
-         b:"there is only one client and many servers",
-         c:"every computer is capable of playing the role of server",
-         d:"every computer is capable of playing the role of client, server or both at the same time",
+         question:"Q4.In Operating System,which of the following is/are CPU scheduling algorithms?",
+         a:"Priority",
+         b:"Round Robin",
+         c:"Shortest Job First",
+         d:"All of the mentioned above",
          ans:"ans4",
-         conhint:"Client server & Both"
+         conhint:"printf(a,b,c)"
     },
     {
         question:"Q5.URL is an abbreviation for",

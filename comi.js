@@ -1,10 +1,10 @@
 const quizDB =[
     {
-        question:"Q1.In peer-to-peer networking,",
-        a:"there is only one server and many clients",
-        b:"there is only one client and many servers",
-        c:"every computer is capable of playing the role of server",
-        d:"every computer is capable of playing the role of client, server or both at the same time",
+        question:"Q1.Who created the first DBMS?",
+        a:"Sharon B. Codd",
+        b:"Edgar Frank Codd",
+        c:"Charles Babbage",
+        d:"Charles Bachman",
         ans:"ans4"
     },
     {
@@ -215,7 +215,7 @@ fifty.addEventListener("click", () => {
    }
 });
 
-/*hint.addEventListener("click",() =>{
+hint.addEventListener("click",() =>{
     const questionList=quizDB[questionCount];
     if (quizDB[questionCount]===quizDB[0])
     {
@@ -279,7 +279,7 @@ fifty.addEventListener("click", () => {
     }
 
     
-});*/
+});
 
 
 
@@ -299,6 +299,7 @@ function loadQuestion()
     showScore.style.display="none";
 const questionList=quizDB[questionCount];
 question.innerHTML=questionList.question;
+btnd.style.display="none";
 
 
 if ( window.getComputedStyle(document.querySelector('#fifty')).display == "none" ) 
