@@ -387,7 +387,7 @@ const deselectAll=()=>{
 
 submit.addEventListener('click',() =>{
     const checkedAnswer=getCheckedAnswer();
-    console.log(checkedAnswer);
+    // console.log(checkedAnswer);
 
     if(checkedAnswer===quizDB[questionCount].ans)
 {
